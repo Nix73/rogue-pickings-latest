@@ -41,21 +41,19 @@ h4 {
 p {
 	font-size: 0.875em;
 	line-height: 21px;
-    padding: 0 30px;
+    /* padding: 0 0px; */
 }
 
 /*The widths are in a percentage!*/
 header {
 	display: flex;
 	justify-content: space-between;
-	height: 110px;
 	max-width: 100%;
 	border-bottom: 3px solid #77a466;
 	margin: 0 auto;
 }
 
 header h1 {
-	align-self: flex-start;
 	margin: 0;
 	padding: 38px 0;
 }
@@ -64,7 +62,9 @@ header h1 span {
 }
 
 header nav {
+	margin-left: 394px;
 	padding: 46px 0;
+	
 }
 header nav ul {
 	margin: 0;
@@ -87,25 +87,27 @@ header nav ul li a{
 .bottom-section {
 	max-width: 100%;
 	display: flex;
+	flex-flow: row wrap;
 	justify-content: center;
 	align-items: center;
 	margin: 0 auto;
 }
-.top-section {
-	max-width: 100%;
-	flex-flow: column nowrap;
-}
+.bottom-section {
+	border-top: 3px solid #eee;
+	text-align: center;
 
+}
 .main-image {
 	width: 100%;
+
 }
 .main-image img {
 	border-bottom: 3px solid #77a466;
 }
 
 .main-title {
-	display: flex;
-	justify-content: center;
+	/* display: flex; */
+	/* justify-content: center; */
 }
 .main-title h3 {
 	padding: 5px 0;
@@ -125,18 +127,12 @@ header nav ul li a{
 	flex-flow: column wrap;
 	width: 33%;
 	height: auto;
-	border-top: 1px solid #eee;
+	text-align: center;
 }
 
 .section-one h4 {
-	padding: 10px 0;
+	padding: 18px 0;
 }
-
-.section-two {
-	border-left: 1px solid #eee;
-	border-right: 1px solid #eee;
-}
-
 .section-two h4,
 .section-three h4 {
 	padding: 10px 30px;
