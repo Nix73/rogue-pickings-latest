@@ -5,7 +5,10 @@ html{
 body {
 	font-family: 'Montserrat', Helvetica, Arial, sans-serif;
 	font-size: 1em;
-	padding: 20px 0 20px 50px;
+	/* padding: 20px 0 20px 50px; */
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .container{
@@ -183,6 +186,12 @@ footer span {
 
 /* Desktop */
 @media all and (min-width: 1200px){
+
+	.container {
+		/* display: flex; */
+		justify-content: center;
+		/* align-items: center; */
+	}
 	header {
 		justify-content: space-between;
 	}
